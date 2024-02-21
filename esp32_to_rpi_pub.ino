@@ -23,9 +23,9 @@ DynamicJsonDocument combined_data_payload(1024);
 char temp_data_format_for_mqtt_format[1024];
 char vib_data_format_for_mqtt_format[1024];
 
-const char* ssid =   "Milkyway";                                           //ssid - service set Identifier (Replace it with your ssid name)
-const char* password =  "Pritish123";                                              // replace with ssid paasword
-const char* mqttBroker = "192.168.245.64";                                           // broker address - replace it with your broker address/cloud broker - test.mosquitto.org
+const char* ssid =   "Your SSID";                                           //ssid - service set Identifier (Replace it with your ssid name)
+const char* password =  "SSID password";                                              // replace with ssid paasword
+const char* mqttBroker = "Broker IP";                                           // broker address - replace it with your broker address/cloud broker - test.mosquitto.org
 const int   mqttPort = 1883;                                                   // broker port number
 const char* clientID = "diot";                                               // client-id 
 const char* temp_topic_for_publish = "cdac/temp/data";                       // topic names
