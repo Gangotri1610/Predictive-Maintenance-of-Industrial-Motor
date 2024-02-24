@@ -76,6 +76,7 @@ Hardware Requirement:-
 
 •	Store Data in DynamoDB: Configure AWS IoT Core to route incoming messages from the RPi to DynamoDB. Define a rule in AWS IoT Core that specifies the DynamoDB table as the target for storing sensor data
 
+Please follow below link where I uploaded results with live demonstration.
 Drive link - https://drive.google.com/drive/folders/1CHOrGeHrtGBr82r70PD0UXqbWML18NgW
 
 
